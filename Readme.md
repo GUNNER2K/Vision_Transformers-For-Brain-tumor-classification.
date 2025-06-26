@@ -15,14 +15,8 @@ A deep learning-based solution for classifying brain tumors from MRI scans using
 - [Model Architecture](#model-architecture)
 - [Installation](#installation)
 - [Training & Evaluation](#training--evaluation)
-- [Results](#results)
 - [Visualizations](#visualizations)
-- [How to Use](#how-to-use)
-- [Future Work](#future-work)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
+- [Conclusion](#future-work)
 ---
 
 ## 🧩 Overview
@@ -38,8 +32,9 @@ We used a publicly available dataset:
 - **Name**: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection)
 - **Classes**: `Glioma`, `Meningioma`, `Pituitary`, `No Tumor`
 - **Format**: Pre-labeled MRI images
-
 ---
+![download](https://github.com/user-attachments/assets/4c26d7b3-c786-42a8-ae74-c79a7afa1bf6)
+
 
 ## 🧠 Model Architecture
 
@@ -65,6 +60,30 @@ Custom modules include:
 ## ⚙️ Installation
 
 ```bash
-git clone https://github.com/yourusername/brain-tumor-vit.git
-cd brain-tumor-vit
+git clone [https://github.com/yourusername/brain-tumor-vit.git](https://github.com/GUNNER2K/Vision_Transformers-For-Brain-tumor-classification.)
 pip install -r requirements.txt
+python ViT_From_scratch/train.py
+```
+
+## ⚙️ Training and Evaluation
+![image](https://github.com/user-attachments/assets/a30a5973-6454-455b-aded-960a6ecd38da)
+
+![acc_plot_VIT_multi](https://github.com/user-attachments/assets/38701226-8190-42d8-86d4-21006dcea528)
+
+
+## ⚙️ Visualization
+
+![Vit_multi_confusion_matrix](https://github.com/user-attachments/assets/9f3b624f-fa8f-4396-aa88-f8031153539d)
+
+## 📚 References
+
+- **E. Simon, A. Briassouli** (2022) - _On the performance of Vision Transformers for brain tumor classification_
+- **Wang et al., 2021** - _Convolutional Vision Transformers (CvT): A unified architecture for image classification_
+
+---
+
+## 📝 Conclusion
+
+Vision Transformers hold promising potential in medical imaging, especially in tasks like tumor classification. However, their reliance on large-scale data makes them challenging in limited-data scenarios. Future directions include hybrid architectures like CvTs and the use of transfer learning with domain-specific pretraining.
+
+
