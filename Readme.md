@@ -59,10 +59,21 @@ Custom modules include:
 
 ## ⚙️ Installation
 
+create a virtual environment with conda:
 ```bash
-git clone [https://github.com/yourusername/brain-tumor-vit.git](https://github.com/GUNNER2K/Vision_Transformers-For-Brain-tumor-classification.)
+conda create -p "env_name" python==3.10 -y
+```
+Clone repository and install the requirements.
+```bash
+git clone [https://github.com/yourusername/brain-tumor-vit.git]
 pip install -r requirements.txt
-python ViT_From_scratch/train.py
+```
+
+## ⚙️ How to use
+
+Run the traning loop:
+```bash
+python ViT_From_Scratch/main.py
 ```
 
 ## ⚙️ Training and Evaluation
