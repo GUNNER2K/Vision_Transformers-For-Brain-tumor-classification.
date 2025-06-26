@@ -21,7 +21,7 @@ A deep learning-based solution for classifying brain tumors from MRI scans using
 
 ## 🧩 Overview
 
-This project focuses on building a Vision Transformer model from scratch to classify brain tumors into their respective categories using MRI images. The goal is to explore transformer-based models in medical imaging and compare their performance with traditional CNNs.
+This project focuses on building a Vision Transformer model from scratch to classify brain tumors into their respective categories using MRI images. The goal is to explore transformer-based models in medical imaging and compare their performance with traditional CNNs. Two approaches are implemented: Making ViT's from scratch and using pretrained weights.
 
 ---
 
